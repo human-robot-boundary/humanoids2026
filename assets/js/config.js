@@ -1,6 +1,6 @@
 const project_name = `Designing the Human-Robot Boundary: From Human Guidance to Robot Autonomy in Real-World Deployment`
 const proj_small_caps = `<span class="small-caps"></span>`
-const conference_details = ['CoRL 2026', 'https://www.corl.org/', 'TBD', '', '']
+const conference_details = ['Humanoids 2026', 'https://2026.ieee-humanoids.org/', 'TBD', '', '']
 const workshop_date = `TBD`
 
 // Invited speakers to be announced

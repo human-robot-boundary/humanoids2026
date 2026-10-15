@@ -1,7 +1,7 @@
 import qrcode
 
 # QRコードにしたいデータ
-data = "https://open-hardware-robots.github.io/CoRL2025/"
+data = "https://human-robot-boundary.github.io/humanoids2026/"
 
 # QRコードを生成
 qr = qrcode.QRCode(

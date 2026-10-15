@@ -11,10 +11,10 @@ function populate_people_html(html_id, details, row_split_idx){
       <div class="column is-variable is-max-desktop">
         <div class="center">
           <img class="display-image center" src="${detail[1]}">
-          <div> 
+          <div>
             <a href="${detail[4]}" target="_blank">${detail[0]}</a> <br>
             ${detail[2]} <br>
-            ${detail[3]} 
+            ${detail[3]}
           </div>
         </div>
       </div>`
@@ -121,7 +121,7 @@ $(document).ready(function () {
   // const schedule = [
   //   'intro',
   //   'inv-talk',
-  //   'break', 
+  //   'break',
   //   'spot-ppt',
   //   'spot-poster',
   //   'lunch-break',
@@ -141,7 +141,7 @@ $(document).ready(function () {
     let abstract = ``
     let talk_mode = ``
     let align_left = ``
-		
+
 		// speaker talk
     if (schedule_entry[0] == 'inv-talk'){
 			schedule_entry[2] = "" // not showing the words "Invited Talk" in the schedule
@@ -224,7 +224,7 @@ $(document).ready(function () {
   });
 
   // Last updated
-  var apiUrl = "https://api.github.com/repos/human-robot-boundary/CoRL2026/commits?sha=main&per_page=1";
+  var apiUrl = "https://api.github.com/repos/human-robot-boundary/humanoids2026/commits?sha=main&per_page=1";
   $.getJSON(apiUrl, function (data) {
     var commitDate = new Date(data[0].commit.committer.date);
     var formattedDate = commitDate.toDateString();
