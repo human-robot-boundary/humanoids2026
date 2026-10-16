@@ -61,7 +61,7 @@ const organizers_details = [
   ['Kento Kawaharazuka', 'assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
   ['Mingyo Seo', 'assets/images/organizers/seo.png', 'Assistant Professor', 'University of Central Florida, USA', 'https://mingyoseo.com/'],
   ['Kashu Yamazaki', 'assets/images/organizers/yamazaki.webp', 'PhD Student', 'Carnegie Mellon University, USA', 'https://kashu7100.github.io/'],
-  ['Marina Y. Aoyama', 'assets/images/organizers/aoyama.jpg', 'PhD Student', 'The University of Edinburgh, USA', 'https://sites.google.com/view/marinayaoyama/'],
+  ['Marina Y. Aoyama', 'assets/images/organizers/aoyama.jpg', 'PhD Student', 'The University of Edinburgh, UK', 'https://sites.google.com/view/marinayaoyama/'],
 ]
 
 const accepted_presentations = [
