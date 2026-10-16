@@ -16,8 +16,9 @@ const organizers_talk_details = {
 const organizers_details = [
   ['Yoshiki Obinata', 'assets/images/organizers/obinata.jpg', 'Project Assistant Professor', 'The University of Tokyo, Japan', 'https://www.yoshiki-obinata.com/'],
   ['Kento Kawaharazuka', 'assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
-  ['Kashu Yamazaki', 'assets/images/organizers/yamazaki.jpg', 'PhD Student', 'Carnegie Mellon University, USA', 'https://kashu7100.github.io/'],
-  ['Mingyo Seo', 'assets/images/organizers/seo.jpg', 'PhD', 'The University of Texas at Austin, USA', 'https://mingyoseo.com/'],
+  ['Mingyo Seo', 'assets/images/organizers/seo.png', 'Assistant Professor', 'University of Central Florida, USA', 'https://mingyoseo.com/'],
+  ['Kashu Yamazaki', 'assets/images/organizers/yamazaki.webp', 'PhD Student', 'Carnegie Mellon University, USA', 'https://kashu7100.github.io/'],
+  ['Marina Y. Aoyama', 'assets/images/organizers/aoyama.jpg', 'PhD Student', 'The University of Edinburgh, USA', 'https://sites.google.com/view/marinayaoyama/'],
 ]
 
 const accepted_presentations = [
