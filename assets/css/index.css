@@ -120,3 +120,47 @@ font-style: italic;
   max-width: 100%;
   height: auto;
 }
+
+/* Workshop templates. */
+.section summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #3273dc;
+}
+
+.section details > .content {
+  margin-top: 1.5rem;
+}
+
+.section-note {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.speaker-placeholder {
+  height: 100%;
+}
+
+.speaker-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 9rem;
+  margin: 0 auto 1.5rem;
+  border-radius: 30%;
+  background: #f1f3f5;
+  color: #7a7a7a;
+  font-size: 3rem;
+}
+
+#schedule-table caption {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+#schedule-table th:first-child,
+#schedule-table td:first-child {
+  white-space: nowrap;
+}
