@@ -5,10 +5,53 @@ const workshop_date = `December 7, 2026`
 
 // Invited speakers to be announced
 const talk_speaker_details = {
-  // 'tbd': ['TBD', '', '', '', '',
-  //   '',
-  //   ''],
+    'gu':
+    ['Shixiang Shane Gu',
+     'assets/images/speakers/gu.jpg',
+     'Senior Staff Research Scientist',
+     'Google DeepMind',
+     'https://sites.google.com/view/gugurus/',
+     '',
+     '',
+     ''],
+    'zeng':
+    ['Andy Zeng',
+     'assets/images/speakers/zeng.jpg',
+     'Co-founder and Chief Scientist',
+     'Generalist',
+     'https://andyzeng.github.io/',
+     '',
+     '',
+     ''],
+    'chen':
+    ['Xianyu Chen',
+     'assets/images/speakers/chen.webp',
+     'Founder & CEO',
+     'IO-AI TECH',
+     '',
+     '',
+     '',
+     ''],
+    'morgenstein':
+    ['Kyle Morgenstein',
+     'assets/images/speakers/morgenstein.jpg',
+     'Reinforcement Learning Lead',
+     'Apptronik',
+     'https://www.kylemorgenstein.com/',
+     '',
+     '',
+     ''],
+    'liu':
+    ['Huihan Liu',
+     'assets/images/speakers/liu.jpg',
+     '',
+     'Amazon FAR',
+     'https://huihanl.github.io/',
+     '',
+     '',
+     ''],
 }
+
 
 const organizers_talk_details = {
 }
