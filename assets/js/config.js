@@ -5,6 +5,15 @@ const workshop_date = `December 7, 2026`
 
 // Invited speakers to be announced
 const talk_speaker_details = {
+    'zeng':
+    ['Andy Zeng',
+     'assets/images/speakers/zeng.jpg',
+     'Co-founder & Chief Scientist',
+     'Generalist',
+     'https://andyzeng.github.io/',
+     '',
+     '',
+     ''],
     'gu':
     ['Shixiang Shane Gu',
      'assets/images/speakers/gu.jpg',
@@ -14,28 +23,19 @@ const talk_speaker_details = {
      '',
      '',
      ''],
-    'zeng':
-    ['Andy Zeng',
-     'assets/images/speakers/zeng.jpg',
-     'Co-founder and Chief Scientist',
-     'Generalist',
-     'https://andyzeng.github.io/',
-     '',
-     '',
-     ''],
     'chen':
-    ['Xianyu Chen',
+    ['Xiangyu Chen',
      'assets/images/speakers/chen.webp',
      'Founder & CEO',
      'IO-AI TECH',
-     '',
+     'https://io-ai.tech/en/about/#:~:text=Meet%20the%20founders-,Xiangyu%20Chen,-Founder%20%26%20CEO',
      '',
      '',
      ''],
     'morgenstein':
     ['Kyle Morgenstein',
      'assets/images/speakers/morgenstein.jpg',
-     'Reinforcement Learning Lead',
+     'RL Lead',
      'Apptronik',
      'https://www.kylemorgenstein.com/',
      '',
@@ -57,7 +57,7 @@ const organizers_talk_details = {
 }
 
 const organizers_details = [
-  ['Yoshiki Obinata', 'assets/images/organizers/obinata.jpg', 'Project Assistant Professor', 'The University of Tokyo, Japan', 'https://www.yoshiki-obinata.com/'],
+  ['Yoshiki Obinata', 'assets/images/organizers/obinata.jpg', 'Project Assistant Professor', 'The University of Tokyo, Japan', 'https://www.yoshikiobinata.com/'],
   ['Kento Kawaharazuka', 'assets/images/organizers/kawaharazuka.png', 'Lecturer', 'The University of Tokyo, Japan', 'https://haraduka.github.io'],
   ['Mingyo Seo', 'assets/images/organizers/seo.png', 'Assistant Professor', 'University of Central Florida, USA', 'https://mingyoseo.com/'],
   ['Kashu Yamazaki', 'assets/images/organizers/yamazaki.webp', 'PhD Student', 'Carnegie Mellon University, USA', 'https://kashu7100.github.io/'],
