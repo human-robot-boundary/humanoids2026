@@ -199,3 +199,15 @@ font-style: italic;
 .moonshot-footer .moonshot-logo-link img {
   width: 400px;
 }
+
+.cfp-poster {
+  display: block;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.cfp-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
