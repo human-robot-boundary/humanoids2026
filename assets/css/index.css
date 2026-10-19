@@ -187,3 +187,15 @@ font-style: italic;
   margin-bottom: 24px;
   font-weight: 600;
 }
+
+.support-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.moonshot-footer .moonshot-logo-link img {
+  width: 400px;
+}
