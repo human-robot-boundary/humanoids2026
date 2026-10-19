@@ -164,3 +164,26 @@ font-style: italic;
 #schedule-table td:first-child {
   white-space: nowrap;
 }
+
+.moonshot-footer {
+  padding: 48px 32px;
+  background: #fff;
+  text-align: center;
+}
+
+.moonshot-footer a {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.moonshot-footer img {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+}
+
+.moonshot-support-text {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
