@@ -63,6 +63,42 @@ const talk_speaker_details = {
 
 
 const organizers_talk_details = {
+    'yamazaki':
+    ['Kashu Yamazaki',
+     'assets/images/organizers/yamazaki.webp',
+     'PhD Student',
+     'Carnegie Mellon University',
+     'https://kashu7100.github.io/',
+     '',
+     '',
+     ''],
+    'kawaharazuka':
+    ['Kento Kawaharazuka',
+     'assets/images/organizers/kawaharazuka.png',
+     'Lecturer',
+     'The University of Tokyo',
+     'https://haraduka.github.io',
+     '',
+     '',
+     ''],
+    'obinata':
+    ['Yoshiki Obinata',
+     'assets/images/organizers/obinata.jpg',
+     'Project Assistant Professor',
+     'The University of Tokyo',
+     'https://www.yoshikiobinata.com/',
+     '',
+     '',
+     ''],
+    'seo':
+    ['Mingyo Seo',
+     'assets/images/organizers/seo.png',
+     'Assistant Professor',
+     'University of Central Florida',
+     'https://mingyoseo.com/',
+     '',
+     '',
+     ''],
 }
 
 const organizers_details = [
@@ -80,7 +116,22 @@ const org_affiliation_logos = [
 ]
 
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
-// last two are for inv-talk event-alias entries
-// Schedule to be announced
+// Last two fields apply to invited and organizer talks.
 const schedule = [
+  ['welcome', '9:00 – 9:10', 'Welcome talk'],
+  ['inv-talk', '9:10 – 9:40', '', 'chen', ''],
+  ['inv-talk', '9:40 – 10:10', '', 'zhou', ''],
+  ['org-talk', '10:10 – 10:25', '', 'obinata', ''],
+  ['coffee-break', '10:30 – 11:00', 'Poster / Demo Session 1 and Coffee break'],
+  ['inv-talk', '11:10 – 11:40', '', 'liu', ''],
+  ['inv-talk', '11:40 – 12:10', '', 'zeng', ''],
+  ['org-talk', '12:10 – 12:25', '', 'kawaharazuka', ''],
+  ['lunch-break', '12:30 – 13:30', 'Lunch'],
+  ['inv-talk', '13:40 – 14:10', '', 'morgenstein', ''],
+  ['inv-talk', '14:10 – 14:40', '', 'gu', ''],
+  ['org-talk', '14:40 – 14:55', '', 'seo', ''],
+  ['coffee-break', '15:00 – 15:30', 'Poster / Demo Session 2 and Coffee break'],
+  ['org-talk', '15:30 – 15:45', '', 'yamazaki', ''],
+  ['disc', '16:00 – 16:40', 'Panel discussion'],
+  ['award', '16:40 – 17:00', 'Award & Closing Remarks'],
 ]
