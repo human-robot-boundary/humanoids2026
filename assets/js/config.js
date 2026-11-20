@@ -32,6 +32,15 @@ const talk_speaker_details = {
      '',
      '',
      ''],
+    'zhou':
+    ['Calvin Zhou',
+     'assets/images/speakers/zhou.jpg',
+     'Co-Founder',
+     'RoboForce',
+     'https://roboforce.ai/',
+     '',
+     '',
+     ''],
     'morgenstein':
     ['Kyle Morgenstein',
      'assets/images/speakers/morgenstein.jpg',
