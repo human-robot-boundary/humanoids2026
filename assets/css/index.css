@@ -165,6 +165,21 @@ font-style: italic;
   white-space: nowrap;
 }
 
+.sponsor-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 100%;
+  color: #111;
+  font-size: 1.75rem;
+}
+
+.sponsor-link img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
 .moonshot-footer {
   padding: 48px 32px;
   background: #fff;
